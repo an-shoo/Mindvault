@@ -1,5 +1,0 @@
-{
-  "name": "MindVault - Personal Knowledge Assistant",
-  "description": "A RAG-based personal knowledge assistant that analyzes your uploaded documents (CSV, TXT, MD, JSON). Features automated data visualization for analytical queries.",
-  "requestFramePermissions": []
-}
