@@ -13,7 +13,6 @@ class VectorStore:
         
         # Setup ChromaDB with persistence
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        # Store in 'db' folder instead of 'data' to avoid showing up in UI file list
         db_path = os.path.join(base_dir, "db", "chroma_db")
         
         # Ensure the directory exists

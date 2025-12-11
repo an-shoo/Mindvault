@@ -11,7 +11,7 @@ class LLMService:
             print("Warning: GEMINI_API_KEY not found in environment variables.")
         else:
             genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel('gemini-2.5-flash-preview-09-2025')
+        self.model = genai.GenerativeModel('gemini-2.5-flash')
 
     def get_response(self, prompt: str) -> str:
         try:
